@@ -2,9 +2,9 @@
 
 !!! WORK IN PROGRESS !!!
 
-It's not quite done, but - more coding to do, but I've been working on getting HP's first pocket calculator running as an emulator on the [Adafruit Macropad RP2040](https://www.adafruit.com/product/5100) keypad. The bulk of this code comes from an Instructables project where [enurdag](https://www.instructables.com/member/enurdag/) emulated the HP-35 with an Arduino and a TFTLCD touchscreen shield. Very cool!
+It's not quite done, but - more coding to do, but I've been working on getting HP's first pocket calculator running as an emulator on the [Adafruit Macropad RP2040](https://www.adafruit.com/product/5100) keypad. The bulk of this code comes from an Instructables project where [enurdag](https://www.instructables.com/member/enurdag/) emulated a HP-35 [RPN calculator](https://en.wikipedia.org/wiki/Reverse_Polish_notation) with an Arduino and a TFTLCD touchscreen shield. Very cool!
 
-The HP-35 has 35 keys, the macropad has 9, so I am using double clicks to access the more used features, and am using the rotary encoder to access everything else. Also, there is a USB input mode (entered by double clicking the encoder button) where you can turn the Macropad into what it was more intended to be, a computer interface - currently a number pad with the enter key.
+The HP-35 has 35 keys, the macropad has 9, so I am using double clicks to access the more used features (arbitrarily chosen by me), and am using the rotary encoder to access everything else. Also, there is a USB input mode (entered by double clicking the encoder button) where you can turn the Macropad into what it was more intended to be, a computer interface - currently a number pad with the enter key.
 
 I've abstracted the HP-35 core that [enurdag](https://www.instructables.com/member/enurdag/) created / adapted? into it's own [Arduino library](https://github.com/funkfinger/HP-35-Arduino-Calc) - so you should be able to use that in projects other than this one...
 
