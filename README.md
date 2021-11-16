@@ -2,7 +2,7 @@
 
 !!! WORK IN PROGRESS !!!
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://img.youtube.com/vi/uhTHvXhsvXE/sddefault.jpg)](https://youtu.be/uhTHvXhsvXE)
 
 It's not quite done, but - more coding to do, but I've been working on getting HP's first pocket calculator running as an emulator on the [Adafruit Macropad RP2040](https://www.adafruit.com/product/5100) keypad. The bulk of this code comes from an Instructables project where [enurdag](https://www.instructables.com/member/enurdag/) emulated a HP-35 [RPN calculator](https://en.wikipedia.org/wiki/Reverse_Polish_notation) with an Arduino and a TFTLCD touchscreen shield. Very cool!
 
